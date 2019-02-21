@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Features>IOperation</Features>
+    <CodeAnalysisRuleSet>..\..\CA_ProductionCode.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.3" />
+    <PackageReference Include="Mmu.Mlh.ConsoleExtensions" Version="1.0.11" />
+    <PackageReference Include="Mmu.Mlh.ServiceProvisioning" Version="2.0.2" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
+    <PackageReference Include="System.IO.Abstractions" Version="3.0.10" />
+  </ItemGroup>
+
+</Project>
