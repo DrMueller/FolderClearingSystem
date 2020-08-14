@@ -15,5 +15,10 @@ namespace Mmu.Fcs.Console.Areas
             "NODE_MODULES",
             "PACKAGES"
         };
+
+        public static IReadOnlyCollection<string> LibraryFolders => new List<string>
+        {
+            "LIBRARIES"
+        };
     }
 }

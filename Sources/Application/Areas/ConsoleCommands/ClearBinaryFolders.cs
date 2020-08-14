@@ -37,8 +37,8 @@ namespace Mmu.Fcs.Console.Areas.ConsoleCommands
             {
                 var upperDirectoryName = subDirectory.Name.ToUpperInvariant();
 
-                // Skip Package folders
-                if (Constants.PackageFolders.Contains(upperDirectoryName))
+                // Skip Package & Library folders
+                if (Constants.PackageFolders.Contains(upperDirectoryName) || Constants.LibraryFolders.Contains(upperDirectoryName))
                 {
                     continue;
                 }
