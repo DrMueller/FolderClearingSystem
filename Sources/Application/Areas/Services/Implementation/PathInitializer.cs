@@ -18,7 +18,7 @@ namespace Mmu.Fcs.Console.Areas.Services.Implementation
 
             if (string.IsNullOrEmpty(selectedPath))
             {
-                selectedPath = "D:\\GIT\\IFES";
+                selectedPath = @"C:\github.xmedia.ch\Immoscout24\BE-2";
             }
 
             PathSingleton.Initialize(selectedPath);
